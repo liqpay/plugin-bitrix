@@ -23,7 +23,7 @@
 
     $order_id .= '#'.time();
 
-	if ($currency == 'RUB') { $currency = 'RUR'; }
+	if ($currency == 'RUR') { $currency = 'RUB'; }
 
 	$private_key = CSalePaySystemAction::GetParamValue('PRIVATE_KEY');
 	$signature = '';
