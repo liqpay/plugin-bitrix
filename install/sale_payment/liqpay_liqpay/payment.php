@@ -40,7 +40,7 @@
 	$result_url = CSalePaySystemAction::GetParamValue('RESULT_URL');
 	$server_url = CSalePaySystemAction::GetParamValue('SERVER_URL');
 	$public_key = CSalePaySystemAction::GetParamValue('PUBLIC_KEY');
-	$type = CSalePaySystemAction::GetParamValue('TYPE');
+	$type = 'buy';
 
     $description = 'Order #'.$order_id;
 
@@ -78,11 +78,11 @@
     <input type="hidden" name="amount" value="<?=$amount?>" />
     <input type="hidden" name="currency" value="<?=$currency?>" />
     <input type="hidden" name="description" value="<?=$description?>" />
-	<?php if ($order_id): ?><input type="hidden" name="order_id" value="<?=$order_id?>" /><?php endif; ?>
-    <?php if ($result_url): ?><input type="hidden" name="result_url" value="<?=$result_url?>" /><?php endif; ?>
-	<?php if ($server_url): ?><input type="hidden" name="server_url" value="<?=$server_url?>" /><?php endif; ?>
-    <?php if ($type): ?><input type="hidden" name="type" value="<?=$type?>" /><?php endif; ?>
-    <?php if ($signature): ?><input type="hidden" name="signature" value="<?=$signature?>" /><?php endif; ?>
-    <?php if ($language): ?><input type="hidden" name="language" value="<?=$language?>" /><?php endif; ?>
+	<input type="hidden" name="order_id" value="<?=$order_id?>" />
+    <input type="hidden" name="result_url" value="<?=$result_url?>" />
+	<input type="hidden" name="server_url" value="<?=$server_url?>" />
+    <input type="hidden" name="type" value="<?=$type?>" />
+    <input type="hidden" name="signature" value="<?=$signature?>" />
+    <input type="hidden" name="language" value="<?=$language?>" />
     <input type="image" src="//static.liqpay.com/buttons/p1ru.radius.png" />
 </form>

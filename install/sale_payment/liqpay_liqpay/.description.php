@@ -72,12 +72,6 @@ $arPSCorrespondence = array(
 		'VALUE' => 'http://'.$_SERVER['HTTP_HOST'].'/personal/ps_result.php',
 		'TYPE'  => ''
 	),
-	'TYPE' => array(
-		'NAME'  => GetMessage('LP_TYPE'),
-		'DESCR' => GetMessage('LP_TYPE_DESC'),
-		'VALUE' => 'buy',
-		'TYPE'  => ''
-	),
 	'ACTION' => array(
 		'NAME'  => GetMessage('LP_ACTION'),
 		'DESCR' => GetMessage('LP_ACTION_DESC'),
