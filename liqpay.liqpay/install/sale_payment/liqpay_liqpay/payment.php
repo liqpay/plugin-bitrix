@@ -73,7 +73,7 @@
 <?=GetMessage('PAYMENT_DESCRIPTION_PS')?> <b>www.liqpay.com</b>.<br /><br />
 <?=GetMessage('PAYMENT_DESCRIPTION_SUM')?>: <b><?=CurrencyFormat($amount, $currency)?></b><br /><br />
 
-<form method="POST" action="<?=$action?>">
+<form method="POST" action="<?=$action?>" accept-charset="utf-8">
     <input type="hidden" name="public_key" value="<?=$public_key?>" />
     <input type="hidden" name="amount" value="<?=$amount?>" />
     <input type="hidden" name="currency" value="<?=$currency?>" />
