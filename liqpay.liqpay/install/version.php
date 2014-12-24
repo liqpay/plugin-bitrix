@@ -10,7 +10,7 @@
  *
  * @category        Liqpay
  * @package         liqpay.liqpay
- * @version         0.0.1
+ * @version         3.0
  * @author          Liqpay
  * @copyright       Copyright (c) 2014 Liqpay
  * @license         http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
@@ -23,6 +23,6 @@
  */
 
 $arModuleVersion = array(
-    "VERSION" => "0.0.1",
+    "VERSION" => "3.0",
     "VERSION_DATE" => "2014-01-28 17:17:17"
 );

@@ -10,7 +10,7 @@
  *
  * @category        Liqpay
  * @package         liqpay.liqpay
- * @version         0.0.1
+ * @version         3.0
  * @author          Liqpay
  * @copyright       Copyright (c) 2014 Liqpay
  * @license         http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
@@ -75,7 +75,7 @@ $arPSCorrespondence = array(
 	'ACTION' => array(
 		'NAME'  => GetMessage('LP_ACTION'),
 		'DESCR' => GetMessage('LP_ACTION_DESC'),
-		'VALUE' => 'https://www.liqpay.com/api/pay',
+		'VALUE' => 'https://www.liqpay.com/api/checkout',
 		'TYPE'  => ''
 	),
 
