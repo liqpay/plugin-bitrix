@@ -63,8 +63,8 @@
                             );
 	
 	$signature = '';
-	if ($private_key) {
-        $signature =  $signature = base64_encode(sha1($private_key.$data.$private_key, 1));
+	if (isset($private_key)) {
+        $signature = base64_encode(sha1($private_key.$data.$private_key, 1));
 	}
 
     if (!$action = CSalePaySystemAction::GetParamValue('ACTION')) {
