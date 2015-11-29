@@ -34,13 +34,13 @@ $data                = $_POST['data'];
 $parsed_data         = json_decode(base64_decode($data));
 $received_signature  = $_POST['signature'];
 
-$received_public_key = $parsed_data['public_key'];
-$order_id            = $parsed_data['order_id'];
-$status              = $parsed_data['status'];
-$sender_phone        = $parsed_data['sender_phone'];
-$amount              = $parsed_data['amount'];
-$currency            = $parsed_data['currency'];
-$transaction_id      = $parsed_data['transaction_id'];
+$received_public_key  =$parsed_data->public_key;
+$order_id            = $parsed_data->order_id;
+$status              = $parsed_data->status;
+$sender_phone        = $parsed_data->sender_phone;
+$amount              = $parsed_data->amount;
+$currency            = $parsed_data->currency;
+$transaction_id      = $parsed_data->transaction_id;
 
 $real_order_id = explode('#', $order_id);
 $real_order_id = $real_order_id[0];
