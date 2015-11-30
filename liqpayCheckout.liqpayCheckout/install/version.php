@@ -22,7 +22,7 @@
  *
  */
 
-$MESS['LP_PUBLIC_KEY'] = 'Публичный ключ';
-$MESS['LP_PUBLIC_KEY_INFO'] = 'получить ключ можно в';
-$MESS['LP_PUBLIC_KEY_INFO_LINK_NAME'] = 'настройках магазина';
-$MESS['LP_SAVE'] = "Сохранить";
+$arModuleVersion = array(
+    "VERSION" => "3.0",
+    "VERSION_DATE" => "2015-11-30 00:00:00"
+);

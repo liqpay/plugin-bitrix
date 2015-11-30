@@ -24,13 +24,13 @@
 
 IncludeModuleLangFile(__FILE__);
 
-class liqpay_liqpay extends CModule
+class liqpayCheckout_liqpayCheckout extends CModule
 {
-    public $MODULE_ID = 'liqpay.liqpay';
+    public $MODULE_ID = 'liqpayCheckout.liqpayCheckout';
     public $MODULE_GROUP_RIGHTS = 'N';
 
     public $PARTNER_NAME = 'www.liqpay.com';
-    public $PARTNER_URI = 'http://www.liqpay.com';
+    public $PARTNER_URI = 'https://www.liqpay.com';
 
     public function __construct()
     {
@@ -78,6 +78,6 @@ class liqpay_liqpay extends CModule
 
     public function UnInstallFiles()
     {
-        return DeleteDirFilesEx($_SERVER['DOCUMENT_ROOT'].'/bitrix/php_interface/include/sale_payment/liqpay_liqpay');
+        return DeleteDirFilesEx($_SERVER['DOCUMENT_ROOT'].'/bitrix/php_interface/include/sale_payment/liqpayCheckout_liqpayCheckout');
     }
 }

@@ -75,7 +75,7 @@ $arPSCorrespondence = array(
 	'ACTION' => array(
 		'NAME'  => GetMessage('LP_ACTION'),
 		'DESCR' => GetMessage('LP_ACTION_DESC'),
-		'VALUE' => 'https://www.liqpay.com/api/checkout',
+		'VALUE' => 'https://www.liqpay.com/api/3/checkout',
 		'TYPE'  => ''
 	),
 

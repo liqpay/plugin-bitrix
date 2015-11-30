@@ -59,6 +59,7 @@ $generated_signature = base64_encode(sha1($private_key.$data.$private_key, 1));
 if ($received_signature != $generated_signature || $public_key != $received_public_key) { die(); }
 
 if ($status == 'success') {
+    //here you can update your order
     $sDescription = '';
     $sStatusMessage = '';
 

@@ -22,7 +22,6 @@
  *
  */
 
-global $MESS;
-
-$MESS['PAYMENT_DESCRIPTION_PS'] = '�� ������ �������� ����� �������';
-$MESS['PAYMENT_DESCRIPTION_SUM'] = '����� � ������ �� �����';
+$MESS['LP_MODULE_NAME'] = 'Платежная система LiqpayCheckout';
+$MESS['LP_MODULE_DESC'] = 'Обработчик для платежной системы LiqpayCheckout';
+$MESS['LP_ERR_MODULE_NOT_FOUND'] = 'Для установки данного решения необходимо наличие модуля #MODULE#.';

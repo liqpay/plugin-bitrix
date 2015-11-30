@@ -46,6 +46,7 @@
     $order_id   .= '#'.time();
     $language    = LANGUAGE_ID;
     $version     = '3';
+    $action      = 'pay';
 
 	if ($currency == 'RUR') { $currency = 'RUB'; }
 
@@ -58,6 +59,9 @@
                                   'description' => $description,
                                   'order_id'    => $order_id,
                                   'type'        => $type,
+                                  'action'      => $action,
+                                  'result_url'  => $result_url,
+                                  'server_url'  => $server_url,
                                   'language'    => $language)
                                 )
                             );
@@ -68,7 +72,7 @@
 	}
 
     if (!$action = CSalePaySystemAction::GetParamValue('ACTION')) {
-        $action = 'https://www.liqpay.com/api/checkout';
+        $action = 'https://www.liqpay.com/api/3/checkout';
     }
 ?>
 
