@@ -31,7 +31,7 @@ $success =
 if (!$success) { die(); }
 
 $data                = $_POST['data'];
-$parsed_data         = json_decode(base64_decode($data));
+$parsed_data         = json_decode(base64_decode($data), true);
 $received_signature  = $_POST['signature'];
 
 $received_public_key = $parsed_data['public_key'];
