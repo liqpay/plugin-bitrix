@@ -18,7 +18,7 @@
  * EXTENSION INFORMATION
  *
  * 1C-Bitrix        14.0
- * LIQPAY API       https://www.liqpay.com/ru/doc
+ * LIQPAY API       https://www.liqpay.ua/documentation/ru
  *
  */
 
@@ -75,7 +75,7 @@ $arPSCorrespondence = array(
 	'ACTION' => array(
 		'NAME'  => GetMessage('LP_ACTION'),
 		'DESCR' => GetMessage('LP_ACTION_DESC'),
-		'VALUE' => 'https://www.liqpay.com/api/3/checkout',
+		'VALUE' => 'https://www.liqpay.ua/api/3/checkout',
 		'TYPE'  => ''
 	),
 

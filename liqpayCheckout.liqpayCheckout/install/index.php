@@ -18,7 +18,7 @@
  * EXTENSION INFORMATION
  *
  * 1C-Bitrix        14.0
- * LIQPAY API       https://www.liqpay.com/ru/doc
+ * LIQPAY API       https://www.liqpay.ua/documentation/ru
  *
  */
 
@@ -29,8 +29,8 @@ class liqpayCheckout_liqpayCheckout extends CModule
     public $MODULE_ID = 'liqpayCheckout.liqpayCheckout';
     public $MODULE_GROUP_RIGHTS = 'N';
 
-    public $PARTNER_NAME = 'www.liqpay.com';
-    public $PARTNER_URI = 'https://www.liqpay.com';
+    public $PARTNER_NAME = 'www.liqpay.ua';
+    public $PARTNER_URI = 'https://www.liqpay.ua';
 
     public function __construct()
     {

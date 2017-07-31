@@ -18,7 +18,7 @@
  * EXTENSION INFORMATION
  *
  * 1C-Bitrix        14.0
- * LIQPAY API       https://www.liqpay.com/ru/doc
+ * LIQPAY API       https://www.liqpay.ua/documentation/ru
  *
  */
 
@@ -72,15 +72,15 @@
 	}
 
     if (!$action = CSalePaySystemAction::GetParamValue('ACTION')) {
-        $action = 'https://www.liqpay.com/api/3/checkout';
+        $action = 'https://www.liqpay.ua/api/3/checkout';
     }
 ?>
 
-<?=GetMessage('PAYMENT_DESCRIPTION_PS')?> <b>www.liqpay.com</b>.<br /><br />
+<?=GetMessage('PAYMENT_DESCRIPTION_PS')?> <b>www.liqpay.ua</b>.<br /><br />
 <?=GetMessage('PAYMENT_DESCRIPTION_SUM')?>: <b><?=CurrencyFormat($amount, $currency)?></b><br /><br />
 
 <form method="POST" action="<?=$action?>" accept-charset="utf-8">
     <input type="hidden" name="signature" value="<?=$signature?>" />
     <input type="hidden" name="data" value="<?=$data?>" />
-    <input type="image" src="//static.liqpay.com/buttons/p1ru.radius.png" />
+    <input type="image" src="//static.liqpay.ua/buttons/p1ru.radius.png" />
 </form>

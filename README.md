@@ -3,7 +3,7 @@ plugin-bitrix
 
 LiqPay plugin for 1C-Bitrix CMS
 
-for Liqpay API checkout 3.0 (https://www.liqpay.com/ru/doc)
+for Liqpay API checkout 3.0 (https://www.liqpay.ua/documentation/ru)
 
 
 #### Для установки модуля скопируйте liqpayCheckout.liqpayCheckout в каталог: ####
@@ -23,10 +23,10 @@ for Liqpay API checkout 3.0 (https://www.liqpay.com/ru/doc)
 
 
 #### Для начала приема платежей на Вашем сайте необходимо: ####
-    - Зарегистрироваться на https://www.liqpay.com
-    - Создать магазин в Вашем аккаунте используя мастер-установки (https://www.liqpay.com/admin/business)
+    - Зарегистрироваться на https://www.liqpay.ua
+    - Создать магазин в Вашем аккаунте используя мастер-установки (https://www.liqpay.ua/admin/business)
     - Получите "Публичный ключ" и "Приватный ключ"
     
-Более подробно о работе с API Liqpay https://www.liqpay.com/ru/doc
+Более подробно о работе с API Liqpay https://www.liqpay.ua/documentation/ru
 
 В некоторый сборках Bitrix уже есть встроенный модуль Liqpay для работы с Liqpay API liq&buy 2.0. Он работает корректно, и вы можете использовать оба модуля сразу. 

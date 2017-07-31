@@ -18,7 +18,7 @@
  * EXTENSION INFORMATION
  *
  * 1C-Bitrix        14.0
- * LIQPAY API       https://www.liqpay.com/ru/doc
+ * LIQPAY API       https://www.liqpay.ua/documentation/ru
  *
  */
 
